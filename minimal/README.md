@@ -18,13 +18,11 @@ expression level (dark blue vertices) takes place. All other (solid)
 edges connect two vertices where, with a certain rate constant, one
 species is consumed and the other is produced.
 
-The ODE system of the model is
+![Table of literals](http://ribonets.github.io/rnadev-models/minimal/lit-minimal-srna.svg)
+
+Using this literals we can describe the ODE system of this model as
 
 ![ODEs](http://ribonets.github.io/rnadev-models/minimal/ode-minimal-srna.svg)
-
-with a detailed description of the literals and rates in
-
-![Table of literals](http://ribonets.github.io/rnadev-models/minimal/lit-minimal-srna.svg)
 
 ## Downloads
 

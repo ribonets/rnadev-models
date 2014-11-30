@@ -10,15 +10,7 @@ Complex formation makes the RBS
 representation of the implemented translational system is shown in the 
 figure below and additional literals are explained in the subsequent table
 
-![Graph representation of the translational riboswitch](http://ribonets.github.io/rnadev-models/minimal/graph-translational.svg)
-
-The ODE system of the model is
-
-![ODEs](http://ribonets.github.io/rnadev-models/minimal/ode-translational.svg)
-
-with a detailed description of the literals and rates in
-
-![Table of literals](http://ribonets.github.io/rnadev-models/minimal/lit-translational.svg)
+![Graph representation of the translational riboswitch](http://ribonets.github.io/rnadev-models/translational/graph-translational.svg)
 
 In case of a translational OFF switch the translation (re-)initiation
 rate for the unbound mRNA species should be much
@@ -27,3 +19,17 @@ To model a translational ON switch the opposite has to be
 true. This is the only necessary change to switch form a translational
 OFF switch to an ON switch.
 
+![Table of literals](http://ribonets.github.io/rnadev-models/translational/lit-translational.svg)
+
+Using this literals we can describe the ODE system of this model as
+
+![ODEs](http://ribonets.github.io/rnadev-models/translational/ode-translational.svg)
+
+## Downloads
+### ON switch:
+* [CellDesigner XML](minimalsystemTranslationalON_CellDesigner.xml)
+* [SBML l2v4](minimalsystemTranslationalON_SBMLExport_l2v4.xml)
+
+### OFF switch:
+* [CellDesigner XML](minimalsystemTranslationalOFF_CellDesigner.xml)
+* [SBML l2v4](minimalsystemTranslationalOFF_SBMLExport_l2v4.xml)
