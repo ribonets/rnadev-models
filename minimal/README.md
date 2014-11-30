@@ -6,6 +6,7 @@ the figure below and the meaning of the individual literals is given in the
 subsequent table.
 
 ![Graph representation of the minimal system](http://ribonets.github.io/rnadev-models/minimal/graph-minimal-srna.svg)
+
 Graph representation of the minimal system. Edges that correspond to
 an inflow or outflow of the system are indicated by dashed lines. An
 outflow means always degradation of a certain species.
@@ -18,8 +19,11 @@ edges connect two vertices where, with a certain rate constant, one
 species is consumed and the other is produced.
 
 The ODE system of the model is
+
 ![ODEs](http://ribonets.github.io/rnadev-models/minimal/ode-minimal-srna.svg)
+
 with a detailed description of the literals and rates in
+
 ![Table of literals](http://ribonets.github.io/rnadev-models/minimal/lit-minimal-srna.svg)
 
 ## Downloads
