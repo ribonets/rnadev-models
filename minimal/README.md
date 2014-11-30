@@ -6,6 +6,9 @@ transcription, translation and degradation processes is shown in
 Figure [fig:min] and the meaning of the individual literals is given in
 Table [tab:min].
 
+
+![Alt text](http://ribonets.github.io/rnadev-models/models/graph-minimal.svg)
+<img src="http://ribonets.github.io/rnadev-models/models/graph-minimal.svg">
 ![Graph representation of the minimal system. Edges that correspond to
 an inflow or outflow of the system are indicated by dashed lines. An
 outflow means always degradation ($\emptyset$) of a certain species.
