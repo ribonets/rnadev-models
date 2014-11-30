@@ -7,7 +7,7 @@ degradation as system of ordinary differential equations (ODEs) with a
 more or less “realistic” parameter set.
 
 We investigated a system published in 2011 by the Keasling lab
-[carothers et. al 2011], which has been used to evaluate self-cleaving
+[Carothers et. al 2011], which has been used to evaluate self-cleaving
 ribozymes and ligand triggered aptazymes. We modularized the ODE system
 such that different regulatory mechanisms, e.g. translational ON
 switches based on sRNA-mRNA interaction or a riboswitch sensor, can be
