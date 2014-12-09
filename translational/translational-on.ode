@@ -2,7 +2,7 @@
 #
 # Model taken from Carothers et al (2011) Science 334:1716-1719
 # and reduced to a minimal system
-# Implemented a Translational OFF system on this basis
+# Implemented a Translational ON system on this basis
 
 ### ODEs ###
 
