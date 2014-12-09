@@ -29,7 +29,11 @@ Using this literals we can describe the ODE system of this model as
 ### ON switch:
 * [CellDesigner XML](minimalsystemTranslationalON_CellDesigner.xml)
 * [SBML l2v4](minimalsystemTranslationalON_SBMLExport_l2v4.xml)
+* [SBML Mathematika](Mathematika_SBML_translation-on_srna.xml)
+* [ODE xppaut](translational-on.ode)
 
 ### OFF switch:
 * [CellDesigner XML](minimalsystemTranslationalOFF_CellDesigner.xml)
 * [SBML l2v4](minimalsystemTranslationalOFF_SBMLExport_l2v4.xml)
+* [SBML Mathematika](Mathematika_SBML_translation-off_srna.xml)
+* [ODE xppaut](translational-off.ode)

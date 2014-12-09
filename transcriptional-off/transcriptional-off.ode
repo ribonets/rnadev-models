@@ -1,0 +1,57 @@
+# Last changed Time-stamp: <2014-11-27 18:15:38 jango>
+#
+# Model taken from Carothers et al (2011) Science 334:1716-1719
+# and reduced to a minimal system
+# Implemented a Transcriptional OFF system on this basis
+
+### ODEs ###
+
+dS/dt=k1-k2*S
+dU/dt=k2*S-(k3+k9)*U-k30*U*F
+dX/dt=k4*(U+R+Clong)-k5*X
+dR/dt=k3*U-k9*R+k40*Clong-k30*R*F
+dP/dt=k5*X-k11*P
+
+dW/dt=k12-k22*W
+dF/dt=k22*W-k92*F+k40*(Cshort+Clong)-k30*F*(U+R)
+
+dCshort/dt=k30*F*U-(k40+k50)*Cshort
+dClong/dt=k30*F*R-(k40+k50)*Clong
+
+dQ/dt=k40*Cshort-k92*Q
+
+### RATES ###
+# Transcription initiation
+para k1=0.018
+# Transcription elongation (U)
+para k2=1
+# Transcription elongation (R)
+para k3=0.018
+# Translation initiation rate
+para k4=0.033
+# Translation elongation rate
+para k5=0.015
+# RNA degradation rate
+para k9=0.011
+# Protein degradation rate
+para k11=0.002
+
+# Transcription initiation of sRNA (F)
+para k12=0.072
+# Transcription elongation of sRNA (F)
+para k22=0.74
+# sRNA degradation rate
+para k92=0.04
+
+# complex formation rate (sequence dependent)
+para k30=3.0
+# complex dissotiation rate (sequence dependent)
+para k40=0.02
+# complex degradation rate
+para k50=0.05
+
+### INIT SYSTEM ###
+init S=0,X=0,U=0,R=0,P=0,W=0,F=0,Cshort=0,Clong=0,Q=0
+
+@ total=60000,meth=cvode,tol=1e-12,atol=1e-12
+done

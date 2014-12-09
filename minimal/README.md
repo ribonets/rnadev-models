@@ -28,5 +28,6 @@ Using this literals we can describe the ODE system of this model as
 
 * [CellDesigner XML](minimalsystemsrna_CellDesigner.xml)
 * [SBML l2v4](minimalsystemsrna_SBMLExport_l2v4.xml)
-
+* [SBML Mathematika](Mathematika_SBML_minimal_srna.xml)
+* [ODE xppaut](minimal-srna.ode)
 

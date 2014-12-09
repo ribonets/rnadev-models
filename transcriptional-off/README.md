@@ -30,4 +30,5 @@ Using this literals we can describe the ODE system of this model as
 
 * [CellDesigner XML](minimalsystemTranscriptionalOFF_CellDesigner.xml)
 * [SBML l2v4](minimalsystemTranscriptionalOFF_SBMLExport_l2v4.xml)
-
+* [SBML Mathematika](Mathematika_SBML_transcription-off_srna.xml)
+* [ODE xppaut](transcriptional-off.ode)
