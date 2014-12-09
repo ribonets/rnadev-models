@@ -24,7 +24,7 @@ The developed models are available in the according sub-directory:
 * [transcriptional-off](https://github.com/ribonets/rnadev-models/tree/master/transcriptional-off)
 * [transcriptional-on](https://github.com/ribonets/rnadev-models/tree/master/transcriptional-on)
 
-There we provide a short summary of each model and their implementation in ODE and SBML format. We are happy to provie further details about the system setups, e.g. used parameters, upon request.
+There we provide a short summary of each model and their implementation in ODE and SBML format. We are happy to provide further details about the system setups, e.g. used parameters, upon request.
 
 
 
